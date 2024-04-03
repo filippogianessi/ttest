@@ -1,0 +1,150 @@
+{
+  "color": {
+    "core": {
+      "pink": {
+        "40": {
+          "value": "#fabfff",
+          "type": "color",
+          "parent": "default/default",
+          "description": ""
+        }
+      },
+      "neutral": {
+        "30": {
+          "value": "#dddddd",
+          "type": "color",
+          "parent": "default/default",
+          "description": ""
+        },
+        "950": {
+          "value": "#030303",
+          "type": "color",
+          "parent": "default/default",
+          "description": ""
+        }
+      }
+    },
+    "component": {
+      "button": {
+        "primary": {
+          "background": {
+            "value": "{color.core.pink.40}",
+            "type": "color",
+            "parent": "default/default",
+            "description": ""
+          },
+          "foreground": {
+            "value": "{color.alias.text.default}",
+            "type": "color",
+            "parent": "default/default",
+            "description": ""
+          }
+        },
+        "secondary": {
+          "background": {
+            "value": "{color.core.neutral.30}",
+            "type": "color",
+            "parent": "default/default",
+            "description": ""
+          },
+          "foreground": {
+            "value": "{color.alias.text.default}",
+            "type": "color",
+            "parent": "default/default",
+            "description": ""
+          }
+        }
+      }
+    },
+    "alias": {
+      "text": {
+        "default": {
+          "value": "{color.core.neutral.950}",
+          "type": "color",
+          "parent": "default/default",
+          "description": ""
+        }
+      }
+    }
+  },
+  "spacing": {
+    "core": {
+      "a": {
+        "value": "0.125rem",
+        "type": "dimension",
+        "parent": "default/default",
+        "description": ""
+      },
+      "b": {
+        "value": "0.25rem",
+        "type": "dimension",
+        "parent": "default/default",
+        "description": ""
+      },
+      "c": {
+        "value": "0.5rem",
+        "type": "dimension",
+        "parent": "default/default",
+        "description": ""
+      },
+      "d": {
+        "value": "1rem",
+        "type": "dimension",
+        "parent": "default/default",
+        "description": ""
+      }
+    },
+    "component": {
+      "button": {
+        "horizontal": {
+          "default": {
+            "value": "{spacing.core.d}",
+            "type": "dimension",
+            "parent": "default/default",
+            "description": ""
+          }
+        },
+        "vertical": {
+          "default": {
+            "value": "{spacing.core.c}",
+            "type": "dimension",
+            "parent": "default/default",
+            "description": ""
+          }
+        },
+        "gap": {
+          "default": {
+            "value": "{spacing.core.b}",
+            "type": "dimension",
+            "parent": "default/default",
+            "description": ""
+          }
+        }
+      }
+    }
+  },
+  "radius": {
+    "s": {
+      "value": "0.25rem",
+      "type": "dimension",
+      "parent": "default/default",
+      "description": ""
+    },
+    "m": {
+      "value": "0.5rem",
+      "type": "dimension",
+      "parent": "default/default",
+      "description": ""
+    },
+    "component": {
+      "button": {
+        "default": {
+          "value": "{radius.m}",
+          "type": "dimension",
+          "parent": "default/default",
+          "description": ""
+        }
+      }
+    }
+  }
+}
