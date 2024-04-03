@@ -1,0 +1,114 @@
+{
+  "color": {
+    "core": {
+      "pink": {
+        "40": {
+          "value": "#FABFFF",
+          "type": "color"
+        }
+      },
+      "neutral": {
+        "30": {
+          "value": "#DDDDDD",
+          "type": "color"
+        },
+        "950": {
+          "value": "#030303",
+          "type": "color"
+        }
+      }
+    },
+    "component": {
+      "button": {
+        "primary": {
+          "background": {
+            "value": "{color.core.pink.40}",
+            "type": "color"
+          },
+          "foreground": {
+            "value": "{color.alias.text.default}",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "background": {
+            "value": "{color.core.neutral.30}",
+            "type": "color"
+          },
+          "foreground": {
+            "value": "{color.alias.text.default}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "alias": {
+      "text": {
+        "default": {
+          "value": "{color.core.neutral.950}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "spacing": {
+    "core": {
+      "a": {
+        "value": "2",
+        "type": "spacing"
+      },
+      "b": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "c": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "d": {
+        "value": "16",
+        "type": "spacing"
+      }
+    },
+    "component": {
+      "button": {
+        "horizontal": {
+          "default": {
+            "value": "{spacing.core.d}",
+            "type": "spacing"
+          }
+        },
+        "vertical": {
+          "default": {
+            "value": "{spacing.core.c}",
+            "type": "spacing"
+          }
+        },
+        "gap": {
+          "default": {
+            "value": "{spacing.core.b}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "radius": {
+    "s": {
+      "value": "4",
+      "type": "borderRadius"
+    },
+    "m": {
+      "value": "8",
+      "type": "borderRadius"
+    },
+    "component": {
+      "button": {
+        "default": {
+          "value": "{radius.m}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  }
+}
